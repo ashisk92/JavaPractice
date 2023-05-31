@@ -1,0 +1,4 @@
+com\orangrhrm\qa\pages\ResetPasswordPage.class
+com\orangehrm\qa\base\TestBase.class
+com\orangrhrm\qa\pages\LoginPage.class
+com\orangrhrm\qa\pages\HomePage.class

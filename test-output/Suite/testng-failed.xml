@@ -2,27 +2,20 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.orangehrm.test.LoginPageTest">
+      <class name="ExcelRWeekdaySeleniumTraining.ToolsQAForm">
         <methods>
-          <include name="loginTestBlankUsernameRightPassword"/>
-          <include name="setup"/>
-          <include name="loginTestWrongUsernameWrongPassword"/>
-          <include name="validateLogin"/>
-          <include name="loginTestWrongUsernameRightPassword"/>
-          <include name="loginTestValidCredentilas"/>
-          <include name="loginTestRightUsernameWrongPassword"/>
-          <include name="tearDown"/>
-          <include name="loginTestBlankUsernameBlankPassword"/>
-          <include name="loginTestRightUsernameBlankPassword"/>
+          <include name="closeTheApplication"/>
+          <include name="LaunchBrowser"/>
+          <include name="StudentRegistrationFormTest"/>
         </methods>
-      </class> <!-- com.orangehrm.test.LoginPageTest -->
-      <class name="com.orangehrm.test.AddUserPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="call"/>
-        </methods>
-      </class> <!-- com.orangehrm.test.AddUserPageTest -->
+      </class> <!-- ExcelRWeekdaySeleniumTraining.ToolsQAForm -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

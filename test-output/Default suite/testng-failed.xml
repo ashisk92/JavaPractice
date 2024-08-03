@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orangehrm.test.AddUserPageTest">
+      <class name="ExcelRWeekdaySeleniumTraining.ToolsQAForm">
         <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="call"/>
+          <include name="closeTheApplication"/>
+          <include name="LaunchBrowser"/>
+          <include name="StudentRegistrationFormTest"/>
         </methods>
-      </class> <!-- com.orangehrm.test.AddUserPageTest -->
+      </class> <!-- ExcelRWeekdaySeleniumTraining.ToolsQAForm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
